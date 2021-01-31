@@ -1,0 +1,379 @@
+.whiteArea{
+	background-color: #fff;
+	margin-bottom: 20px;
+}
+.md{
+	width: 1200px;
+	margin: 0 auto;
+}
+.whiteAreaIn{
+	height: 300px;
+}
+.nav{
+	height: 52px;
+	line-height: 52px;
+	margin: 16px 0;
+}
+.nav a{
+	color: #2a2a2a;
+}
+.logo{
+	width: 176px;
+	height: 52px;
+	background: url(../images/zfnav.png) center center no-repeat;
+	overflow: hidden;
+	float: left;
+}
+.logo>a{
+	display: block;
+	height: 52px;
+}
+.nav .links{
+	float: left;
+}
+.nav .links a{
+	margin-left: 50px;
+}
+.nav .message{
+	float: right;
+}
+.nav .cartBth img{
+	vertical-align: middle;
+	margin-right: 7px;
+}
+.nav .message .login{
+	margin: 0 30px;
+}
+.bannerBox{
+	height: 360px;
+	background-color: aqua;
+	position: relative;
+}
+.banner a{
+	display: block;
+	height: 360px;
+	background: url(../images/laybanner.png) center center no-repeat;
+}
+.sliderBar{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: cadetblue;
+	background: rgba(2, 0, 0, .2);
+	width: 240px;
+}
+.sliderBar li{
+	padding: 0 30px;
+}
+.sliderBar a{
+	display: block;
+	height: 72px;
+	line-height: 72px;
+	border-bottom: 1px solid #333;
+	color: #fff;
+	box-sizing: border-box;
+	position: relative;
+}
+.sliderBar li a::after{
+	content: "";
+	width: 7px;
+	height: 13px;
+	background: url(../images/arrow.png);
+	position: absolute;
+	right: 0;
+	top: 30px;
+}
+.sliderBar li:last-child a{
+	border-bottom: none;
+}
+.sliderBar li:hover{
+	background-color: rgba(11, 11, 11, 0.3);
+}
+.content{
+	width: 500px;
+	height: 360px;
+	position: absolute;
+	left: 240px;
+	top: 0;
+	background-color: skyblue;
+	display: none;
+}
+.sliderBar li:hover .content{
+	display: block;
+}
+.recomment h3{
+	font-size: 16px;
+	color: #2d2d2d;
+	margin: 39px 0 19px 0;line-height: 1;
+}
+.lists li{
+	width: 251px;
+	height: 184px;
+	float: left;
+	position: relative;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
+	margin-right: 65px;
+}
+.lists li:last-child{
+	margin-right: 0;
+}
+.lists li a{
+	width: 251px;
+	height: 184px;
+	display: block;
+	background: url(../images/bj1.png) center top no-repeat;
+}
+.recomment .layer{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #fff;
+	padding: 15px 15px 0 ;
+	box-sizing: border-box;
+}
+.recomment .layer h5{
+	color: #1e1e1e;
+	font-size: 14px;
+	line-height: 1;
+}
+.recomment .layer .top{
+	height: 40px;
+	overflow: hidden;
+}
+.recomment .lists li:hover .top{
+	height: 90px;
+	/*
+	第一个值：过度属性 
+	第二个值：过渡时间
+	第三个值：过渡方式
+	 */
+	transition: height 0.5s linear;
+}
+.recomment .layer h5:nth-child(2){
+	margin: 8px 0 10px;
+}
+.recomment .top p{
+	color: #9d9d9d;
+}
+.recomment .bottom{
+	height: 43;
+	line-height: 43px;
+	color: #9e9e9e;
+	font-size: 12px;
+}
+.recomment .bottom .money{
+	color: red;
+	float: left;
+}
+.recomment .bottom .num{
+	float: right;
+}
+/* 灰色 */
+.grayArea{
+	padding: 34px 0 54px 0;
+	background-color: #d4d4d4;
+}
+.grayIn>a,.grayIn>div{
+	float: left;
+	height: 380px;
+	margin-right: 24px;
+}
+.grayArea .one{
+	width: 224px;
+	background: url(../images/left.png) center center no-repeat;
+	display: block;
+}
+.grayArea .two{
+	width: 397px;
+	float: left;
+}
+.grayArea .three{
+	float: left;
+	width: 254px;
+}
+.grayArea .four{
+	width: 251px;
+	margin-right: 0;
+}
+.grayArea .two a{
+	display: block;
+	height: 184px;
+}
+.grayArea .two a:first-child{
+	background: url(../images/bot.png) center center no-repeat;
+	margin-bottom: 12px;
+}
+.grayArea .two a:last-child{
+	background: url(../images/bot2.png) center center no-repeat;
+}
+.three li{
+	height: 184px;
+}
+.three a{
+	height: 184px;
+	display: block;
+	background: url(../images/bj1.png) center top no-repeat;
+	position: relative;
+}
+.threeIn{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background-color: #fff;
+	box-sizing: border-box;
+	padding: 15px 15px 0;
+	color: #000;
+}
+.threeIn .bottom{
+	height: 43px;
+	line-height: 43px;
+	font-size: 12px;
+}
+.threeIn .top h5:nth-child(2){
+	margin: 8px 0 10px;
+}
+.threeIn .top{
+	height: 50px;
+	overflow: hidden;
+}
+.threeIn:hover .top{
+	height: 90px;
+	transition: 0.5s;
+}
+.threeIn .bottom .money{
+	float: left;
+	color: red;
+}
+.threeIn .bottom .num{
+	float: right;
+}
+.three li:first-child{
+	margin-bottom: 12px;
+}
+.three li h5{
+	color: #1e1e1e;
+	font-size: 14px;
+	line-height: 1;
+}
+.three li p{
+	color: #9d9d9d;
+}
+.three .bottom .num{
+	color: #9e9e9e;
+}
+.four{
+	width: 251px;
+	background: url(../images/bj1.png) center top no-repeat;
+	margin-left: 26px;
+	height: 380px;
+	position: relative;
+}
+.four .bottom{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background-color: #fff;
+}
+.four .bottom h4{
+	padding: 30px 23px 27px 24px;
+}
+.four .bottom span{
+	margin: 0 0 20px 24px;
+	font-size: 12px;
+	color: #7b7b7b;
+	display: block;
+}
+.four .bottom ul{
+	width: 179px;
+	margin: 0 35px 30px 25px;
+	border-top: 1px solid #e1e1e1;
+}
+.four .bottom li{
+	font-size: 12px;
+	margin-bottom: 10px;
+	padding-left: 11px;
+}
+.four .bottom li:first-child{
+	padding-top: 26px;
+}
+.four .bottom li:last-child{
+	margin-bottom: 0;
+}
+.foot1{
+	height: 272px;
+	background-color: #2e2e2e;
+	position: relative;
+}
+.foot1 dl{
+	font-size: 12px;
+	float: left;
+	margin-right: 80px;
+}
+.foot1 dt{
+	text-align: center;
+	padding: 54px 0 30px 0;
+}
+.foot1 dd{
+	margin-bottom: 10px;
+}
+.foot1 dt>a{
+	font-size: 14px;
+	color: #fefdfd;
+}
+.foot1 dd>a{
+	color: #a3a3a3;
+}
+.foot1 dl:first-child{
+	margin-left: 45px;
+}
+.foot1 .right{
+	width: 250px;
+	height: 140px;
+	position: absolute;
+	top: 63px;
+	right: 50px;
+}
+.foot1 .right .back{
+	margin-left: 15px;
+	width: 198px;
+	height: 61px;
+	background: url(../images/last.png) center top no-repeat;
+}
+.foot1 .right .back a{
+	display: block;
+	width: 198px;
+	height: 61px;
+}
+.foot1 .right ul{
+	margin-top: 5px;
+	width: 240px;
+	height: 60px;
+}
+.foot1 .right ul li{
+	width: 60px;
+	height: 50px;
+	float: left;
+}
+.foot1 .right ul li a{
+	background: url(../images/2.png) no-repeat;
+	display: block;
+	width: 50px;
+	height: 43px;
+}
+.foot2{
+	height: 96px;
+	background-color: #212121;
+	font-size: 12px;
+	color: #a3a3a3;
+}
+.foot2 div{
+	padding-top: 27px;
+	width: 343px;
+	margin: auto;
+	line-height: 20px;
+}
+.foot2 span{
+	color: #cfcfcf;
+}
